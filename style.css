@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 62px;
+  background: #132361;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.para p {
+  color: #E4E6EE;
+}
+
+.abt,
+p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.3199999928474426px;
+  text-align: right;
+  color: #C4CAE1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  /*responsive*/
+
+}
+
+.box1 {
+  width: 100%;
+  height: 606px;
+  /* top: 162.8px; */
+  background-color: #B7D8EF;
+}
+
+.card-body>h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #132361;
+}
+
+.cont input {
+  width: 412px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 10px;
+  background: #FFFFFF80;
+
+}
+
+.hero {
+  margin-bottom: 16px;
+  margin-left: 30px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.cloud img {
+  width: 100%;
+}
+
+.top1 {
+  /* font-family: Work Sans; */
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* font-family: Work Sans; */
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 72px;
+  /* letter-spacing: 0em; */
+  text-align: left;
+
+}
+
+
+.top1 h1 {
+  font-size: 30px;
+  color: #132361;
+}
+
+.top1 h1 span {
+  color: gold;
+}
+
+
+.main2 {
+  width: 100%;
+}
+
+.a3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+
+}
+
+#pp1 {
+  width: 400px;
+  height: auto;
+}
+
+.heading,
+h1 {
+  font-family: Work Sans;
+  font-size: 60px;
+  font-weight: 800px;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #132361;
+
+
+}
+
+#one {
+  color: #FFC53A;
+  font-weight: 900;
+  padding: 0rem 0.8rem;
+}
+
+.heading2,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+/* cards*/
+
+.card-title {
+  color: #132361;
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.card-text {
+  color: #646464;
+  ;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.3199999928474426px;
+  text-align: left;
+
+
+}
+
+.btn {
+  height: 50px;
+  width: 170px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: center;
+  color: #36348E;
+}
+
+.parent_ent {
+  padding: 9rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.heading3,
+h1 {
+  font-family: Work Sans;
+  font-size: 60px;
+  font-weight: 800px;
+  line-height: 70px;
+  text-align: center;
+  color: #132361;
+  margin-bottom: 1rem;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  background: #cdd4fb;
+  color: #36348e;
+  outline: transparent;
+  border: transparent;
+  /* padding-inline: 1rem; */
+  text-align: center;
+  font-weight: bold;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+
+/**/
+.card-ti {
+  text-align: center;
+
+}
+
+#txtaln {
+  text-align: center;
+}
+
+#txtaln>p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.3199999928474426px;
+  text-align: center;
+
+
+}
+
+.card-ti {
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #132361;
+
+}
+
+/* 
+{xxxxx} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.section_header-align {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btns {
+  padding: 10px 20px;
+  background: #cdd4fb;
+  color: #36348e;
+  outline: transparent;
+  border: transparent;
+  /* padding-inline: 1rem; */
+  text-align: center;
+  font-weight: bold;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.section_header h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #132361;
+}
+
+.findClass_wrapper .section_header h1 span {
+  color: #ffc53a;
+}
+
+.findClass_wrapper .section_header h1 {
+  width: 520px;
+}
+
+.subject_cards {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 1rem;
+}
+
+.subject_cards::-webkit-scrollbar {
+  display: none;
+}
+
+.subject_cards .card {
+  width: 200px;
+  height: 200px;
+  background: #132361;
+  color: #ffa3da;
+  font-size: 28px;
+  display: flex;
+  align-items: end;
+  padding: 10px;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  scroll-snap-align: start;
+}
+
+.partners_list {
+  background: #f9f9fc;
+  padding-block: 3rem;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+}
+
+.partners_list img {
+  width: 100px;
+  height: 90px;
+}
+
+.span_red {
+  color: #f66a1d;
+}
+
+.txt-clr {
+  color: #132361;
+  font-weight: bold;
+}
+
+.Teachers_list {
+  padding-block: 3rem;
+}
+
+.Teachers_list .align {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.Teachers_list .section_header h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.colored_cards {
+  display: flex;
+}
+
+.colored_cards .card {
+  background: #132361;
+  color: #fff;
+  padding: 2rem;
+  border-right: 1px solid #000000;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+footer {
+  background: #edf8ff;
+}
+
+.text-white {
+  color: #132361 !important;
+  border-bottom: 1px solid #e7e9ea;
+  padding-bottom: 0.5rem;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+  color: #646464;
+  font-size: 16px;
+}
+
+.text-muted {
+  width: 300px;
+}
+
+.text-white {
+  position: relative;
+}
+
+.text-white::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #36348e;
+}
+
+.copy_rt {
+  color: #fff;
+  padding: 10px;
+  background: #36348e;
+}
+
+.copy_rt span {
+  color: #ffc53a;
+  font-weight: bold;
+}
